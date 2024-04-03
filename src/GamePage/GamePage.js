@@ -38,8 +38,8 @@ const GamePage = () => {
     const ballSize = 10;
     let ballX = window.innerWidth / 2;
     let ballY = window.innerHeight / 2;
-    let ballSpeedX = 6;
-    let ballSpeedY = 6  ;
+    let ballSpeedX = 10;
+    let ballSpeedY = 10 ;
     let score1 = 0;
     let score2 = 0;
     const winningScore = 1;
