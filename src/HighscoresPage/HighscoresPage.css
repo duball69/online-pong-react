@@ -1,0 +1,64 @@
+/* High Scores Page Styles */
+body {
+    background-color: black;
+    color: #fff;
+    font-family: 'Orbitron', sans-serif; /* Use Orbitron font family */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #0ff; /* Neon blue */
+    margin-top: 0;
+}
+
+#highScoresList {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto; /* Center horizontally */
+    width: fit-content; /* Adjust width to fit content */
+    max-width: 600px;
+    text-align: left; /* Align text to the left */
+}
+
+#highScoresList li {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #0f0f0f; /* Dark gray */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+#highScoresList li:last-child {
+    margin-bottom: 0;
+}
+
+#highScoresList li::before {
+    content: '\25A0'; /* Square character */
+    margin-right: 10px;
+    font-size: 20px;
+    color: #f0f; /* Neon purple */
+}
+
+.back-to-play {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #0f0f0f; /* Dark gray */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    max-width: 200px;
+}
+
+.back-to-play:hover {
+    background-color: #444; /* Darker gray on hover */
+}
